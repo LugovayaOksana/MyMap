@@ -13,7 +13,7 @@ struct MyMapApp: App {
     @StateObject var model = Model()
     
     init() {
-        YMKMapKit.setApiKey("45b8d7c9-b613-4294-bb1d-c2ab0e07ccd9")
+        YMKMapKit.setApiKey("KEY")
     }
     
     var body: some Scene {
